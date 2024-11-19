@@ -1,0 +1,50 @@
+
+body{
+   
+    font-family: Arial, Helvetica, sans-serif,"Hind Siliguri", sans-serif;
+    padding: 0;
+    width: 99.9%;
+    overflow-x: hidden;
+    margin-left:10px;
+    position:sticky;
+}
+.title{text-align: center;
+    color: rgb(255, 0, 0);
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+    background: linear-gradient(
+          90deg,
+          rgba(187, 230, 255, 0.616) 0%,
+          rgba(13, 158, 241, 0.4) 70%
+        );backdrop-filter: blur(10px);
+       border-radius: 50px ; }
+.title, h3, h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;text-transform: uppercase;
+    font-weight: 300;
+}
+h3{
+    font-size: 18px;
+    background: rgb(255, 255, 100);
+    padding: 3px 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 3px 3px rgb(255, 81, 0);
+    line-height: 36px;
+    display: inline-block;
+}
+
+ul li{
+    
+    font-weight: 600;
+}
+.exe span{
+    text-decoration: underline;
+    color:rgb(158, 1, 1)
+}
+.ad{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+.rules ul li{list-style:decimal-leading-zero;}
+.rules ul li li{list-style:circle;}
